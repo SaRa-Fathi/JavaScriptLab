@@ -31,7 +31,7 @@ function add(firstNum,lastNum){
     return sum;
 }
 console.log(firstNum + "+" + lastNum + "=" + add(firstNum,lastNum));
-var result=prompt(firstNum + "+" + lastNum + "=" + add(firstNum,lastNum));
+alert(firstNum + "+" + lastNum + "=" + add(firstNum,lastNum));
 
 
 
