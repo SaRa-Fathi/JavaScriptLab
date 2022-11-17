@@ -1,11 +1,3 @@
-// var firstName=Sara;
-// var lastName=Fathi;
-
-// console.log("Please Enter Your First Name:");
-// console.log(firstName);
-// console.log("Please Enter Your last Name:");
-// console.log(lastName);
-
 var fName=prompt("Please Enter Your First Name:");
 console.log(fName);
 
@@ -22,7 +14,7 @@ var message=alert("Welcome " + fName +" "+ lName +" you are " + age +" years old
 // console.log(message);
 
 /*****************************************************************************************/
-
+//---------Making Summation Calculator-----------
 console.log("Hello,this is the first release of a calculator that only has a summation feature");
 document.write("Hello,this is the first release of a calculator that only has a summation feature");
 
@@ -31,15 +23,13 @@ console.log(firstNum);
 
 var lastNum=Number(prompt("Please Enter the Last Number:"));
 console.log(lastNum);
+
 var sum;
+
 function add(firstNum,lastNum){
-    
     sum=firstNum + lastNum;
-    // console.log(firstNum + "+" + lastNum + "=" + sum);
     return sum;
-    // console.log(add(firstNum,lastNum));
 }
-// var result=console.log(add(firstNum,lastNum));
 console.log(firstNum + "+" + lastNum + "=" + add(firstNum,lastNum));
 var result=prompt(firstNum + "+" + lastNum + "=" + add(firstNum,lastNum));
 
